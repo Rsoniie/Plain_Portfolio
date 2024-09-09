@@ -171,8 +171,8 @@ section {
 
 .section__pic-container {
   display: flex;
-  height: 400px;
-  width: 400px;
+  height: 60rem;
+  width: 60rem;
   margin: auto 0;
 }
 
@@ -206,6 +206,7 @@ section {
   gap: 1rem;
 }
 
+
 /* ICONS */
 
 .icon {
@@ -219,6 +220,7 @@ section {
   display: flex;
   justify-content: center;
   gap: 1rem;
+  margin-top: 0.5rem;
 }
 
 .btn {
@@ -294,13 +296,14 @@ section {
 }
 
 .details-container {
-  padding: 1.5rem;
+  padding: 1rem;
   flex: 1;
   background: white;
   border-radius: 2rem;
   border: rgb(53, 53, 53) 0.1rem solid;
   border-color: rgb(163, 163, 163);
   text-align: center;
+  flex-direction: column;
 }
 
 .section-container {
@@ -330,11 +333,12 @@ section {
 .experience-details-container {
   display: flex;
   justify-content: center;
-  flex-direction: column;
+  flex-direction: row;
 }
 
 .article-container {
   display: flex;
+  flex-direction: row;
   text-align: initial;
   flex-wrap: wrap;
   flex-direction: row;
@@ -366,8 +370,8 @@ article .icon {
 
 .project-img {
   border-radius: 2rem;
-  width: 90%;
-  height: 90%;
+  width: 18rem;
+  height: 17rem;
 }
 
 .project-title {
